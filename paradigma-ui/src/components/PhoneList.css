@@ -1,0 +1,9 @@
+table {
+    margin-top: 2em;
+    color: #2289f7;
+    border: solid 1px;
+    width:100%;
+}
+table tr {
+    padding: 1em;
+}

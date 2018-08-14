@@ -1,0 +1,43 @@
+h1 {
+    margin-left: 1em !important;
+    margin-top: 1.5em !important;
+    color: #2289f7;
+    text-transform: uppercase;
+}
+.card {
+    width: 300px;
+    min-height: 500px;
+    color: grey;
+    cursor: pointer;
+    margin: 1em;
+}
+
+.card .image {
+    height: 300px;
+    width: 285px;
+}
+
+.ui.card>.content {
+    min-height: 10em;
+}
+
+
+.card .content {
+    text-align: center;
+    margin: 1em;
+}
+
+.card .description {
+    font-style: italic;
+    font-size: 14px;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2em 1em;
+}    
+
+.full-height {
+    height: 100vh;
+}
