@@ -13,8 +13,8 @@ To start the front-end:
 - to start it with docker:
     sudo docker build -t <your username>/node-web-app .
     docker images (ves las imagenes activas)
-    sudo docker run -p 49160:3000 nurialopez/node-web-app 
-    (if your port 3000 it's busy run sudo docker run -p 3000:3000 nurialopez/node-web-app. The app will be accesible in  http://localhost:49160 )
+    sudo docker run -p 3000:3000 nurialopez/node-web-app 
+    (if your port 3000 it's busy run sudo docker run -p 49160:3000 nurialopez/node-web-app. The app will be accesible in  http://localhost:49160 )
     it will be accesible in http://localhost:3000 
 
 How to use the front-end:
